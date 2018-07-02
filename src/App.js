@@ -13,7 +13,7 @@ class App extends Component {
         </header>
         <p className="App-intro">        
           To get started, edit <code>Hello World</code> and save to reload.       
-        <img src={picture} className="" alt="Logo" />;
+        <img src={picture} className="abm" alt="Logo" />;
         </p>
       </div>
     );
