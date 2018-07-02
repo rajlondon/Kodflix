@@ -27,4 +27,13 @@
   to { transform: rotate(360deg); }
 }
 
-.abm {width: 100%}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  
+}
+.item {
+  flex: 1;
+ 
+}
