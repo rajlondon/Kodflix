@@ -34,8 +34,17 @@
 }
 .item {
   flex-grow: 1;
- margin: 30px;
+  margin: auto;
 }
 .Movies {
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+   }
+  body {
+      background-color: rgb(204, 17, 26);
+
+  }
 }
