@@ -30,10 +30,12 @@
 .container {
   display: flex;
   justify-content: space-around;
-  margin: 30px;
   
 }
 .item {
-  flex: 1;
- 
+  flex-grow: 1;
+ margin: 30px;
+}
+.Movies {
+  width: 100%;
 }
