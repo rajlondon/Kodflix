@@ -35,6 +35,7 @@
 .item {
   flex-grow: 1;
   margin: auto;
+  position: relative;
 }
 .Movies {
   width: 100%;
@@ -47,4 +48,22 @@
       background-color: rgb(204, 17, 26);
 
   }
+}
+h1 {
+  color: red
+}
+
+.movieTitle {
+  position: absolute;
+  bottom: 0;
+  transform: translate (50%, 50%);
+  color: red;
+  width: 100%;
+  opacity: 0;
+  background-color: black;
+  height: 10%;
+}
+
+.item:hover .movieTitle{
+    opacity: 1;
 }
