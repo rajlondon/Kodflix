@@ -6,6 +6,7 @@ import DE from "../Movies/DE.jpg"
 import game from "../Movies/game.jpg"
 import walking from "../Movies/walking.jpg"
 import wire from "../Movies/wire.jpg"
+import "./Gallery.css";
 
 export default function Gallery() {
     return (
