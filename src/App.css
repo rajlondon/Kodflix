@@ -15,7 +15,7 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 5em;
 }
 
 .App-intro {
@@ -24,7 +24,11 @@
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+   to { transform: rotate(360deg); }
+}
+
+.image {
+  width:100%;
 }
 
 .container {
@@ -37,9 +41,7 @@
   margin: auto;
   position: relative;
 }
-.Movies {
-  width: 100%;
-}
+
 @media only screen and (max-width: 600px) {
   .container {
     display: block;
@@ -59,11 +61,15 @@ h1 {
   transform: translate (50%, 50%);
   color: red;
   width: 100%;
+  background-color:rgba(28, 28, 28, 0.55);
+  height: 9%;
   opacity: 0;
-  background-color: black;
-  height: 10%;
+  font-size: 100%;
+  transition: height 0.5s, opacity 1s;
 }
 
 .item:hover .movieTitle{
     opacity: 1;
 }
+
+
